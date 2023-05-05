@@ -1,0 +1,30 @@
+#bgg{
+    background-image: url("https://images.pexels.com/photos/314726/pexels-photo-314726.jpeg?cs=srgb&dl=pexels-pixabay-314726.jpg&fm=jpg");
+    object-fit: cover;    /* display: flex; */
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#forbar{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    /* top: 0%; */
+
+    /* z-index: -10; */
+}
+
+@media only screen and (max-width:580px){
+    #bgg{
+        width: 90vh;
+        height: 120vh;
+    }
+
+}
